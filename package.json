@@ -1,0 +1,25 @@
+{
+  "name": "gql-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon --exec babel-node src/index.js -e js,gql"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.5",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.5"
+  },
+  "dependencies": {
+    "apollo-server": "^3.13.0",
+    "gql": "^1.1.2",
+    "merge-graphql-schemas": "^1.7.8",
+    "mongoose": "^8.0.2"
+  }
+}
